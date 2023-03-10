@@ -1,0 +1,79 @@
+body {
+  font-size: 20px; font-family: 'Bungee Spice', cursive;
+}
+
+h1 {
+  color :firebrick; font-family: 'Genos', sans-serif;
+  /* font-family: 'Silkscreen', cursive; */
+}
+
+a {
+  text-decoration: none; font-family: 'Bungee Spice', cursive;
+}
+
+a:hover {
+  text-decoration: none; font-family: 'Genos', sans-serif;
+}
+
+h2 {
+  font-family: 'Caveat', cursive; font-size: 50px; color:indianred;
+}
+
+img {
+  border-radius: 30%;
+  width: 100px;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-white {
+  margin: 30px;
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.fa-brands {
+  color:darkgoldenrod;
+  font-size: 50px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
